@@ -1,0 +1,58 @@
+{
+    "name": "TouchbarEmulator",
+    "uuid": "com.chino.touchbaremulator",
+    "version": "1.0.0",
+    "author": "chino",
+    "entry": "backend/plugin.cjs",
+    "description": "Touchbar Emulator",
+    "repo": "",
+    "sdk": {
+        "version": "1.0.7"
+    },
+    "software": {
+        "minimumVersion": "2.0.0"
+    },
+    "os": [
+        {
+            "platform": "mac",
+            "minimumVersion": "10.15"
+        }
+    ],
+    "device": [
+        {
+            "name": "flexbar",
+            "version": "1.0.0"
+        }
+    ],
+    "configPage": "",
+    "keyLibrary": {
+        "title": "TouchbarEmulator",
+        "style": {
+            "icon": "mdi mdi-apple"
+        },
+        "children": [
+          {
+              "title": "TouchbarEmulator",
+              "tip": "Touchbar Emulator",
+              "cid": "com.chino.touchbaremulator.emulator",
+              "config": {
+                  "keyType": "directDraw",
+                  "platform": [
+                      "mac"
+                  ]
+              },
+              "style": {
+                  "icon": "mdi mdi-apple",
+                  "width": 240
+              },
+              "data": {
+              }
+          }
+        ]
+    },
+    "local": {
+        "en": {
+            "PluginName": "TouchbarEmulator"
+        }
+    }
+}
