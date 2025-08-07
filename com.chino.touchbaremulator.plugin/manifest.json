@@ -4,8 +4,8 @@
     "version": "1.0.0",
     "author": "chino",
     "entry": "backend/plugin.cjs",
-    "description": "Touchbar Emulator",
-    "repo": "",
+    "description": "The Touch Bar Emulator brings the full original Touch Bar experience to your Flexbar",
+    "repo": "https://github.com/chino-2333/Flexbar-TouchbarEmulator",
     "sdk": {
         "version": "1.0.7"
     },
