@@ -4,3 +4,5 @@ logs
 .env
 package-lock.json
 com.chino.touchbaremulator.plugin/backend
+com.chino.touchbaremulator.flexplugin
+.DS_Store
